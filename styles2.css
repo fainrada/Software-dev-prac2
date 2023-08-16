@@ -1,0 +1,60 @@
+body{
+    background-image: url('images/pexels-fu-zhichao-587741.jpg');
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,p{
+    font-family: 'Prompt',serif;
+    text-shadow: 2px 2px 8px #1b1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+}
+
+select, input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.content {
+    text-align: center;
+    padding: 100px 0;
+    width: 20vw;
+    height: 100vh;
+}
+
+.content h1 {
+    color: #ffbdfb;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffbdfb;
+    color: #0b0b0b;
+    border: #070707 2px solid;
+    border-radius: 16px;
+    text-decoration: none;
+}
