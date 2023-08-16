@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-shadow: 2px 2px 8px #1b1a1a;
+}
+
+body {
+    font-family: 'Arial';
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('images/pexels-igor-ovsyannykov-205961.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+    height: 100vh;
+}
+
+.hero h1 {
+    color: #ffbdfb;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffbdfb;
+    color: #0b0b0b;
+    border: #070707 2px solid;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    max-width: 30%;
+}
+
+.feature h2 {
+    color: #ffbdfb;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
