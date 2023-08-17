@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles2.css" />
-    <script src="script.js"></script>
+    <script src="register.js"></script>
     <title>Register</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
         />
 
         <label for="size">ขนาดบูธ</label>
-        <select id="size" name="size">
+        <select id="size" name="size" required value="">
           <option value="10by10">10x10</option>
           <option value="10by15">10x15</option>
         </select>
@@ -51,6 +51,8 @@
           name="phone"
           placeholder="เบอร์ผู้ติดต่อ"
         />
+
+        <input class="btn" type="button" value="submit" onclick="validate();" />
       </form>
     </section>
   </body>
